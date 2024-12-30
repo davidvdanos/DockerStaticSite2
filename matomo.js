@@ -3,7 +3,7 @@ var _paq = window._paq = window._paq || [];
 _paq.push(['trackPageView']);
 _paq.push(['enableLinkTracking']);
 (function () {
-    var u = "//daviddevelopment.ddns.net/";
+    var u = "https://daviddevelopment.ddns.net/";
     _paq.push(['setTrackerUrl', u + 'eliotracker.php']);
     _paq.push(['setSiteId', '3']);
     var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
