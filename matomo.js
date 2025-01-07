@@ -3,9 +3,9 @@ var _paq = window._paq = window._paq || [];
 _paq.push(['trackPageView']);
 _paq.push(['enableLinkTracking']);
 (function () {
-    var u = "https://daviddevelopment.ddns.net/";
-    _paq.push(['setTrackerUrl', u + 'eliotracker.php']);
-    _paq.push(['setSiteId', '3']);
+    var u = "//elioplustracking.com/";
+    _paq.push(['setTrackerUrl', u + 'matomo.php']);
+    _paq.push(['setSiteId', '1']);
     var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
-    g.async = true; g.src = u + 'eliotracker.js'; s.parentNode.insertBefore(g, s);
+    g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
 })();
